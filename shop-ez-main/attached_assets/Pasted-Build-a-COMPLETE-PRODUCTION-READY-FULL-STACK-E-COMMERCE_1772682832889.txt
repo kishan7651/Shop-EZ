@@ -1,0 +1,398 @@
+Build a COMPLETE PRODUCTION-READY FULL STACK E-COMMERCE WEB APPLICATION called **"ShopEZ"** similar to **Amazon / Flipkart** with modern UI, scalable architecture, secure authentication, payment gateway integration, and admin management.
+
+TECH STACK
+
+Frontend:
+
+* React.js (Vite)
+* Tailwind CSS
+* React Router
+* Axios
+* Redux Toolkit (state management)
+* Framer Motion (animations)
+* React Icons
+* React Query (optional for API caching)
+
+Backend:
+
+* Node.js
+* Express.js
+
+Database:
+
+* MongoDB (Mongoose)
+
+Authentication:
+
+* JWT authentication
+* bcrypt password hashing
+
+Payments:
+
+* Stripe or Razorpay payment gateway
+* Support for UPI, card payments, and Cash on Delivery
+
+Deployment:
+
+* Frontend: Vercel / Netlify
+* Backend: Render / Railway
+* Database: MongoDB Atlas
+
+The UI should look modern and professional similar to large e-commerce platforms.
+
+The application must be **fully responsive (mobile, tablet, laptop, desktop)**.
+
+---
+
+AUTHENTICATION SYSTEM
+
+Implement a secure authentication system with:
+
+* User Registration
+* User Login
+* Logout
+* JWT based authentication
+* Password hashing with bcrypt
+* Protected routes
+* Token validation middleware
+
+User Roles:
+
+* Customer
+* Admin
+
+Admin users can access admin dashboard routes.
+
+---
+
+PRODUCT SYSTEM
+
+Products should support large scale listings.
+
+Product fields:
+
+* title
+* description
+* price
+* discountPrice
+* category
+* brand
+* stock
+* rating
+* reviews
+* images (multiple)
+* specifications
+
+Features:
+
+* Product listing page
+* Product detail page
+* Image gallery
+* Product rating
+* Review system
+* Featured products
+* Discount badges
+* Best seller section
+
+---
+
+ADVANCED SEARCH AND FILTER
+
+Implement advanced product discovery:
+
+Search:
+
+* Product name
+* Category
+* Brand
+
+Filters:
+
+* Price range
+* Category
+* Rating
+* Availability
+* Brand
+
+Sorting options:
+
+* Price Low to High
+* Price High to Low
+* Top Rated
+* Newest
+* Most Popular
+
+---
+
+SHOPPING CART SYSTEM
+
+Features:
+
+* Add to cart
+* Remove from cart
+* Update quantity
+* Persistent cart (localStorage or database)
+* Dynamic price updates
+* Cart summary
+
+Display:
+
+* Product image
+* Name
+* Quantity
+* Price
+* Total cost
+
+---
+
+WISHLIST SYSTEM
+
+Users can:
+
+* Add products to wishlist
+* Remove products from wishlist
+* Move wishlist items to cart
+
+---
+
+CHECKOUT SYSTEM
+
+Multi-step checkout process:
+
+Step 1: Address
+Step 2: Shipping method
+Step 3: Payment
+Step 4: Order confirmation
+
+Checkout features:
+
+* Address form
+* Order summary
+* Tax calculation
+* Shipping fee
+* Discount coupons
+
+---
+
+PAYMENT GATEWAY
+
+Integrate secure payment gateway:
+
+Use Stripe or Razorpay.
+
+Payment options:
+
+* Credit / Debit Card
+* UPI
+* Net Banking
+* Cash on Delivery
+
+Ensure payment verification before order confirmation.
+
+---
+
+ORDER MANAGEMENT
+
+Users should be able to:
+
+* View order history
+* Track orders
+* Cancel orders
+* Download invoice
+
+Order statuses:
+
+* Pending
+* Processing
+* Shipped
+* Delivered
+* Cancelled
+
+---
+
+USER DASHBOARD
+
+User dashboard should allow:
+
+* Profile management
+* Order history
+* Saved addresses
+* Wishlist
+* Account settings
+
+---
+
+ADMIN DASHBOARD
+
+Admin panel features:
+
+* Add products
+* Edit products
+* Delete products
+* Manage inventory
+* View orders
+* Update order status
+* Manage users
+
+Analytics:
+
+* Total revenue
+* Total orders
+* Top selling products
+* Sales charts
+
+---
+
+PRODUCT REVIEWS
+
+Users can:
+
+* Add reviews
+* Give star ratings
+* Edit reviews
+* Delete reviews
+
+Display:
+
+* Username
+* Rating
+* Comment
+* Date
+
+---
+
+MODERN UI/UX
+
+Design requirements:
+
+* Clean ecommerce layout
+* Product cards with hover animations
+* Loading skeletons
+* Smooth transitions
+* Toast notifications
+* Sticky navbar
+* Mobile menu
+* Responsive grid layout
+
+---
+
+REQUIRED PAGES
+
+Home Page
+Products Page
+Product Details Page
+Cart Page
+Wishlist Page
+Checkout Page
+Login Page
+Signup Page
+User Dashboard
+Admin Dashboard
+Order History
+Profile Page
+Order Confirmation Page
+
+---
+
+DATABASE SCHEMAS
+
+Create MongoDB schemas:
+
+User Schema
+Product Schema
+Cart Schema
+Order Schema
+Review Schema
+Address Schema
+
+---
+
+API ROUTES
+
+Create REST APIs:
+
+/api/auth
+/api/products
+/api/cart
+/api/orders
+/api/users
+/api/reviews
+/api/admin
+
+---
+
+PROJECT STRUCTURE
+
+Frontend:
+
+src/
+components/
+pages/
+layouts/
+context/
+services/
+hooks/
+utils/
+styles/
+
+Backend:
+
+server/
+controllers/
+routes/
+models/
+middleware/
+config/
+utils/
+
+---
+
+SECURITY
+
+Include:
+
+* JWT authentication
+* Password hashing
+* Protected routes
+* API validation
+* Rate limiting
+* Secure headers
+
+---
+
+PERFORMANCE
+
+Include:
+
+* Pagination
+* Lazy loading images
+* Debounced search
+* Optimized API calls
+* Caching strategies
+
+---
+
+BONUS FEATURES
+
+* Recently viewed products
+* Flash sales
+* Coupon system
+* Dark mode
+* Email notifications
+* AI product recommendations
+
+---
+
+OUTPUT
+
+Generate:
+
+1. Complete backend code
+2. Complete frontend code
+3. Database schemas
+4. API implementation
+5. Folder structure
+6. Setup instructions
+7. Environment variables example
+8. Deployment instructions
+9. Payment gateway integration steps
